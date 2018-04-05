@@ -6,8 +6,10 @@ function balikString(sentence){
     arr[reverseCount] = sentence[i];
     reverseCount--;
   }
+  
+  var reversed = arr.join("");
 
-  console.log(arr);
+  console.log(reversed);
 
 }
 
