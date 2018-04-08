@@ -1,9 +1,7 @@
 function groupAnimals(animals) {
   var arr =[[]];
-  var firstChar = "";
-  var count = 0; //checking how many variations.
+  var count = 0;
   var index = 0;
-  var num = 0;
   animals.sort();
 
   for(var i = 0; i < animals.length-1; i++){
